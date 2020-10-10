@@ -1,16 +1,15 @@
 import { Component, ElementRef, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: 'app-navbar',
+  templateUrl: './navbar.component.html',
+  styleUrls: ['./navbar.component.css']
 })
-export class HeaderComponent implements OnInit {
-
+export class NavbarComponent implements OnInit {
+ 
   constructor(private el: ElementRef) { }
 
   ngOnInit(): void {
-
   }
 
   openSearch(): void {
@@ -29,4 +28,5 @@ export class HeaderComponent implements OnInit {
     sBtn.classList.remove('active');
 
   }
+
 }
