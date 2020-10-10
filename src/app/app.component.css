@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: "Roboto",sans-serif;
+}
+.nav-container {
+        background: #FFFFFA;
+        box-shadow: 0px 8px 24px rgba(0,0,0,0.1);
+        height: 72px;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+div {
+    border: double;
+
+
+}
